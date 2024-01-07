@@ -1,0 +1,2 @@
+Cantidad de piezas fabricadas: 5
+Registro de piezas escrito en el archivo LOG_20231111_121414.txt
