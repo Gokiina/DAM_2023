@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AE04</title>
+        <!-- script necesario para calcular el hash -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+        
+        <!-- buscarPersonaje busca el personaje que escribamos en la API de Marvel y nos muestra su información -->
+        <script>
+            function buscarPersonaje() {
+                var characterName = document.getElementById("strPalabra").value;
+                var ts = new Date().getTime(); // Timestamp
+                var privKey = "7e1b80e379ab80df5f1f05fe5822cb4f38dbcaf6"; // Clave privada
+                var publicKey = "033d96a8e506f4ebcc4e86ddc5f0ef85"; // Clave pública
+                var hash = CryptoJS.MD5(ts + privKey + publicKey).toString(); // Hash
+                // Es necesario calcular hash realizando algunas operaciones en tiempo real para verificar que somos nosotros
+
+                fetch(
+                    `https://gateway.marvel.com:443/v1/public/characters?name=${characterName}&ts=${ts}&apikey=${publicKey}&hash=${hash}`
+                )
+                    .then((res) => {
+                        return res.json();
+                    })
+                    .then((data) => {
+                        if (data.data.results.length > 0) {
+                            var character = data.data.results[0];
+                            var name = character.name;
+                            var description = character.description;
+                            var comics = character.comics.items;
+                            var imageUrl =
+                                character.thumbnail.path +
+                                "." +
+                                character.thumbnail.extension;
+
+                            document.getElementById("characterImage").src =
+                                imageUrl;
+                            document.getElementById("strDescription").value =
+                                description;
+
+                            var stringComics = "";
+                            for (var i = 0; i < comics.length; i++) {
+                                var comicName = "- " + comics[i].name;
+                                stringComics = stringComics + comicName + "\n";
+                            }
+                            document.getElementById("strComics").value =
+                                stringComics;
+
+                            var strName = document.getElementById("strName");
+                            strName.innerHTML = name;
+                        } else {
+                            alert(
+                                "El personaje '" +
+                                    characterName +
+                                    "' no existe en la base de datos de Marvel"
+                            );
+                        }
+                    })
+                    .catch((error) => console.error(error));
+            }
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- guardarInfo almacena la información obtenida a la BBDD -->
+        <script>
+            function guardarInfo() {
+                var name = document.getElementById("strName").innerText;
+                var description =
+                    document.getElementById("strDescription").value;
+                var comics = document.getElementById("strComics").value;
+
+                $.ajax({
+                    type: "POST",
+                    url: "http://127.0.0.1/DAM/AE04/PHPPost.php",
+                    data: {
+                        name: name,
+                        description: description,
+                        comics: comics,
+                    },
+                    success: function (response) {
+                        alert("Guardado con éxito");
+                    },
+                    error: function () {
+                        alert("Error al guardar");
+                    },
+                });
+            }
+        </script>
+
+        <!-- buscarPersonajeBBDD busca el personaje en nuestra BBDD y nos muestra su información -->
+        <script>
+            function buscarPersonajeBBDD() {
+                var name = document.getElementById("strPalabraBBDD").value;
+
+                $.ajax({
+                    type: "GET",
+                    url: "http://127.0.0.1/DAM/AE04/PHPGet.php",
+                    data: {
+                        name: name
+                    },
+                    success: function (response) {
+                        var data = JSON.parse(response);
+                        var dataFormat = 'Nombre: ' + data.name + '\n\nDescripción: ' + data.description + '\n\nCómics:\n' + data.comics;
+                document.getElementById("strJSON").value = dataFormat;
+                    },
+                    error: function () {
+                        alert("Error al guardar");
+                    },
+                });   
+            }
+        </script>
+
+    </head>
+
+    <body style="margin: 3%; background-color: rgb(237, 30, 36)">
+        <div style="justify-content: center; display: flex">
+            <img
+                src="http://127.0.0.1/DAM/AE04/logo.png"
+                width="300"
+                height="auto"
+            />
+        </div>
+        <div style="display: flex; margin: 25px">
+            <div
+                style="
+                    flex: 1;
+                    display: flex;
+                    margin-right: 2%;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                "
+            >
+                <h2>Buscador de personajes:</h2>
+                <text>EJEMPLOS: HULK, Storm y Thanos</text>
+                <p>
+                    <input type="text" value="" id="strPalabra" />
+                    <button type="button" onclick="buscarPersonaje()">
+                        Buscar
+                    </button>
+                </p>
+                <h2>Descripción:</h2>
+                <textarea
+                    id="strDescription"
+                    rows="10"
+                    style="width: 100%"
+                ></textarea>
+                <h2>Cómics:</h2>
+                <textarea
+                    id="strComics"
+                    rows="10"
+                    style="width: 100%"
+                ></textarea>
+                <p>
+                    <button type="button" onclick="guardarInfo()">
+                        Guardar Info
+                    </button>
+                </p>
+            </div>
+            <div>
+                <h2 id="strName"></h2>
+                <img id="characterImage" width="400" height="auto" />
+            </div>
+        </div>
+        <div>
+            <h1>Ampliación</h1>
+            <p>
+                <input type="text" value="" id="strPalabraBBDD" />
+                <button type="button" onclick="buscarPersonajeBBDD()">
+                    Buscar
+                </button>
+            </p>
+            <textarea
+                    id="strJSON"
+                    rows="10"
+                    style="width: 100%"
+            ></textarea>
+        </div>
+    </body>
+</html>

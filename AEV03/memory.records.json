@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "651cf2b09786d2170a0032e3"
+  },
+  "usuario": "roberto",
+  "dificultad": 8,
+  "timestamp": "20231004_070552",
+  "duracion": 8
+},
+{
+  "_id": {
+    "$oid": "651cf31f0f7aec7f89220391"
+  },
+  "usuario": "roberto",
+  "dificultad": 8,
+  "timestamp": "20231004_070743",
+  "duracion": 11
+},
+{
+  "_id": {
+    "$oid": "651cf3f80f7aec7f89220392"
+  },
+  "usuario": "roberto",
+  "dificultad": 8,
+  "timestamp": "20231004_071120",
+  "duracion": 12
+},
+{
+  "_id": {
+    "$oid": "651cf4484146691de90bf112"
+  },
+  "usuario": "roberto",
+  "dificultad": 8,
+  "timestamp": "20231004_071240",
+  "duracion": 9
+},
+{
+  "_id": {
+    "$oid": "651d5de214b61d1c0cc2e0e0"
+  },
+  "usuario": "roberto",
+  "dificultad": 8,
+  "timestamp": "20231004_144314",
+  "duracion": 10
+},
+{
+  "_id": {
+    "$oid": "651d68246c0dde61892e5eef"
+  },
+  "usuario": "roberto",
+  "dificultad": 16,
+  "timestamp": "20231004_152700",
+  "duracion": 19
+},
+{
+  "_id": {
+    "$oid": "651d68516c0dde61892e5ef0"
+  },
+  "usuario": "roberto",
+  "dificultad": 16,
+  "timestamp": "20231004_152745",
+  "duracion": 37
+}]
