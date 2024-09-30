@@ -9,14 +9,14 @@
 
 
 <div>
-	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/AD/AE03" target="_blank">AE01 | Gestión de ficheros - MVC</a></h3>
+	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/AD/AE01" target="_blank">AE01 | Gestión de ficheros - MVC</a></h3>
   <p>La apliación permite listar ficheros con extensión ".txt", ordenarlos, buscar coincidencias y fusionarlos.</p>
   <img width="805" alt="image" src="https://github.com/user-attachments/assets/66c9ed48-cc73-4f44-b948-d6c9e1a09a43">
 
 
 </div> 
 <div>
-	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/AD/AE03" target="_blank">AE02 | Gestión de BBDD - MVC</a></h3>
+	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/AD/AE02" target="_blank">AE02 | Gestión de BBDD - MVC</a></h3>
   <p>Se permite acceder a una base de datos sobre libros, en la que puedes acceder como usuario normal o con permisos. Podiendo realizar las consultas dependiendo de tu nivel gerárquico.</p>
   <img width="808" alt="image" src="https://github.com/user-attachments/assets/5da6886b-0136-4d2d-aa1d-1dfb836d147b">
 
