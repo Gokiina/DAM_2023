@@ -1,7 +1,7 @@
 ---
 
 ### <h1>DAM 
-<p>Aqui están mis proyectos técnicos según asignatura</p>
+<p>Aqui están mis proyectos prácticos según asignatura</p>
 
 <div>
 	<h3>👾 <a href="https://github.com/Gokiina/DAM_2023/tree/VG" target="_blank">Videojuegos</a></h3>
@@ -29,6 +29,12 @@
 		<img width="248" alt="image" src="https://github.com/user-attachments/assets/0e6dc5c8-55ff-43ae-95bf-ff7bbb08d98c">
 	</div>
 	<h3>⌨️ <a href="https://github.com/Gokiina/DAM_2023/tree/PROG" target="_blank">Programación</a></h3>
+	<div  align="center">
+  		<img width="90" alt="image" src="https://github.com/user-attachments/assets/c81ab370-10e4-4322-bf17-9e376e1e9495">
+		<img width="90" alt="image" src="https://github.com/user-attachments/assets/7f66348f-e276-41ad-a764-2ccb2b103950">
+		<img width="90" alt="image" src="https://github.com/user-attachments/assets/ff9511c2-2c99-4b93-8b2d-ada0aa7b88b7">
+ 		<img width="90" alt="image" src="https://github.com/user-attachments/assets/ea467d15-fbd3-473a-b0d3-41a4372a8549">
+	</div> 
 </div>
 
 ---
