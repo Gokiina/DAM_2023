@@ -1,25 +1,30 @@
 ---
 
 ### <h1>DAM 
-<p>Aqui están mis proyectos según asignatura</p>
+<p>Aqui están mis proyectos técnicos según asignatura</p>
 
 <div>
-	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/VG" target="_blank">Videojuegos</a></h3>
+	<h3>👾 <a href="https://github.com/Gokiina/DAM_2023/tree/VG" target="_blank">Videojuegos</a></h3>
 	<div  align="center">
   		<img width="300" alt="image" src="https://github.com/user-attachments/assets/5d6f4a48-6054-4dba-b851-f1c55212e1a2">
 		<img width="93" alt="image" src="https://github.com/user-attachments/assets/c4a316e3-bfcc-48a9-8219-b5c8fb0457f1">
 		<img width="300" alt="image" src="https://github.com/user-attachments/assets/08ae8446-057b-4d9b-beba-98841c1e9c88">
 	</div>
-	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/AD" target="_blank">Acceso a datos</a></h3>
+	<h3>💿 <a href="https://github.com/Gokiina/DAM_2023/tree/AD" target="_blank">Acceso a datos</a></h3>
 	<div  align="center">
   		<img width="230" alt="image" src="https://github.com/user-attachments/assets/66c9ed48-cc73-4f44-b948-d6c9e1a09a43">
 		<img width="280" alt="image" src="https://github.com/user-attachments/assets/5da6886b-0136-4d2d-aa1d-1dfb836d147b">
 		<img width="223" alt="image" src="https://github.com/user-attachments/assets/4c17b6e8-10fd-4662-8815-7ec8dcb6fbee">
- 		<img width="260" alt="image" src="https://github.com/user-attachments/assets/17a14457-ff86-4fa1-a939-26e6080f03fb">
+ 		<img width="258" alt="image" src="https://github.com/user-attachments/assets/17a14457-ff86-4fa1-a939-26e6080f03fb">
 	</div> 
-	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/DI" target="_blank">Desarollo de interfaces</a></h3>
-	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/PSP" target="_blank">Programación de servicios y procesos</a></h3>
-	
+	<h3>🖥️ <a href="https://github.com/Gokiina/DAM_2023/tree/DI" target="_blank">Desarollo de interfaces</a></h3>
+	<h3>📋 <a href="https://github.com/Gokiina/DAM_2023/tree/PSP" target="_blank">Programación de servicios y procesos</a></h3>
+	<div  align="center">
+  		<img width="200" alt="image" src="https://github.com/user-attachments/assets/be944aa8-e790-47b2-8022-d33090b7af67">
+		<img width="280" alt="image" src="https://github.com/user-attachments/assets/de509a1a-7208-404d-a362-661e7bd888cf">
+		<img width="248" alt="image" src="https://github.com/user-attachments/assets/0e6dc5c8-55ff-43ae-95bf-ff7bbb08d98c">
+	</div>
+	<h3>⌨️ <a href="https://github.com/Gokiina/DAM_2023/tree/PROG" target="_blank">Programación</a></h3>
 </div>
 
 ---
