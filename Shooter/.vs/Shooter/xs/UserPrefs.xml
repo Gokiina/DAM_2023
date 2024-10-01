@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e91c378c-dc76-4347-8409-4fb85581c789" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Torret/EnemyShot.cs">
+    <Files>
+      <File FileName="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Shaders/Lit.shader" />
+      <File FileName="Assets/Scripts/Shot.cs" />
+      <File FileName="Assets/Scripts/Bullet.cs" />
+      <File FileName="Assets/Scripts/Lootbox.cs" />
+      <File FileName="Assets/Scripts/PlayerActions.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/RotateObject.cs" />
+      <File FileName="Assets/Scripts/Drone/BillBoardDrone.cs" />
+      <File FileName="Assets/Scripts/Drone/DroneMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Drone/EnemyHitted.cs" Line="14" Column="39" />
+      <File FileName="Assets/Scripts/Drone/DronePlayerDetection.cs" />
+      <File FileName="Assets/Scripts/Torret/Billboard.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/Torret/EnemyShot.cs" Line="34" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{64E2F6C6-1576-AED7-02C5-6D94F5E99C09}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="29" Column="6" />
+      <File FileName="Assets/Scripts/obstacleMovement.cs" Line="13" Column="71" />
+      <File FileName="Assets/Scripts/obstacleGenerator.cs" Line="28" Column="127" />
+      <File FileName="Assets/Scripts/sceneController.cs" Line="20" Column="28" />
+      <File FileName="Assets/Scripts/ObstacleScoreArea.cs" Line="18" Column="6" />
+      <File FileName="Assets/Scripts/ScoreController.cs" Line="7" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Runner" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ScoreController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="50757c81-57aa-40de-b265-163a482fc7ec" />
+</Properties>
