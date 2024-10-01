@@ -18,6 +18,10 @@
  		<img width="258" alt="image" src="https://github.com/user-attachments/assets/17a14457-ff86-4fa1-a939-26e6080f03fb">
 	</div> 
 	<h3>🖥️ <a href="https://github.com/Gokiina/DAM_2023/tree/DI" target="_blank">Desarollo de interfaces</a></h3>
+	<div  align="center">
+  		<img width="220" alt="image" src="https://github.com/user-attachments/assets/cbac60e0-2228-4590-abb0-e85876d90397">
+		<img width="82" alt="image" src="https://github.com/user-attachments/assets/fe3842f1-aba2-4c22-9e0f-58bad5ccc495">
+	</div>
 	<h3>📋 <a href="https://github.com/Gokiina/DAM_2023/tree/PSP" target="_blank">Programación de servicios y procesos</a></h3>
 	<div  align="center">
   		<img width="200" alt="image" src="https://github.com/user-attachments/assets/be944aa8-e790-47b2-8022-d33090b7af67">
