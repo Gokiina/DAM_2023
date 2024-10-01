@@ -9,27 +9,30 @@
 
 
 <div>
-	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/PSP/AE1" target="_blank">AE01 | Tetris - MVC</a></h3>
-  <p>La apliación recoge información sobre la cantidad de piezas de cada tipo a fabricar y simula sus tiempos de fabricación. Según seleccione el usuario mostrara por consola o escribirá en un fichero la lista de piezas fabricadas.</p>
+	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/VG/Platformer" target="_blank">Platformer</a></h3>
+  <p>Consiste en un videojuego de plataformas en el que hay que recolectar fruta para pasar al siguiente nivel.</p>
   <div  align="center">
-  <img width="549" alt="image" src="https://github.com/user-attachments/assets/be944aa8-e790-47b2-8022-d33090b7af67">
+  <img width="1467" alt="image" src="https://github.com/user-attachments/assets/5d6f4a48-6054-4dba-b851-f1c55212e1a2">
+
 </div>
 
 
 </div> 
 <div>
-	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/PSP/AE02" target="_blank">AE02 | Chat entre usuarios</a></h3>
-  <p>Se simula un chat en el que pueden acceder varios usuarios mediante el servidor y pueden enviarse mensajes entre si por distintos terminales.</p>
+	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/VG/Runner" target="_blank">Runner</a></h3>
+  <p>Juego donde eres un pajaro y debes ir esquivando las tuberias que van apareciendo.</p>
   <div  align="center">
-  <img width="747" alt="image" src="https://github.com/user-attachments/assets/de509a1a-7208-404d-a362-661e7bd888cf">
+  <img width="328" alt="image" src="https://github.com/user-attachments/assets/c4a316e3-bfcc-48a9-8219-b5c8fb0457f1">
+
   </div>
 
 </div> 
 <div>
-	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/PSP/AE03" target="_blank">AE03 | Juego Memory - MVC</a></h3>
-  <p>Se pide implementar una API REST con el framework Spring Boot que gestione peticiones HTTP de tipo GET y POST realizadas desde un cliente (Postman). El objetivo de la API es proporcionar un servicio web para consumir y gestionar una base de datos de reseñas sobre películas.</p>
+	<h3><a href="https://github.com/Gokiina/DAM_2023/tree/VG/Shooter" target="_blank">Shooter</a></h3>
+  <p>Juego de disparos espacial en el que aparecen naves que hay que destruir.</p>
   <div align="center">
-  <img width="722" alt="image" src="https://github.com/user-attachments/assets/0e6dc5c8-55ff-43ae-95bf-ff7bbb08d98c">
+  <img width="1457" alt="image" src="https://github.com/user-attachments/assets/08ae8446-057b-4d9b-beba-98841c1e9c88">
+
 
   </div>
 </div> 
