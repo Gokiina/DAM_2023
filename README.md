@@ -4,7 +4,7 @@
 <p>Aqui están mis proyectos según asignatura</p>
 
 <div>
-	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/VG" target="_blank">Video juegos</a></h3>
+	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/VG" target="_blank">Videojuegos</a></h3>
 	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/AD" target="_blank">Acceso a datos</a></h3>
 	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/DI" target="_blank">Desarollo de interfaces</a></h3>
 	<h3>- <a href="https://github.com/Gokiina/DAM_2023/tree/PSP" target="_blank">Programación de servicios y procesos</a></h3>
